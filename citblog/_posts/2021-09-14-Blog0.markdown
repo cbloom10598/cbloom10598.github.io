@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Blog 0: Apple's M1 Chip"
+date:   2021-09-14 19:43:00 -0700
+categories: jekyll update
+---
+Since November of 2020, Apple has released it's first products of the Apple M1 chip. Although it shows major improvements speed and reliability, there is still compatibility issues with the chip and it is difficult for some development tasks. For instance, when setting up this website and Jekyll, the standard way of installing on a terminal is different with M1. For instance, you cannot install Jeckyll via the code command, "gem install bundler jekyll." This is because the way M1 is structured, it will have to be installed through homebrew.  You will have to install the ruby on homebrew as well. 
+
+These configurations while easy to look up, it can be a hassle at first because of two reasons. The fist is that since the M! was released in 2020, not alot of websites or forums will have solutions as the technology has to fully adapt. The second reason is that many companies still have not developed platforms to support M1. As I am a part of adapting the new technology, this is a challenge for me especially in programming classes.
+
