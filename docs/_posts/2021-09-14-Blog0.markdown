@@ -8,3 +8,4 @@ Since November of 2020, Apple has released it's first products of the Apple M1 c
 
 These configurations while easy to look up, it can be a hassle at first because of two reasons. The fist is that since the M! was released in 2020, not alot of websites or forums will have solutions as the technology has to fully adapt. The second reason is that many companies still have not developed platforms to support M1. As I am a part of adapting the new technology, this is a challenge for me especially in programming classes.
 
+
