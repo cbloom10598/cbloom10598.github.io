@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Blog 1: Intorduction to Docker"
+date:   2021-09-22 20:33:00 -0700
+categories: jekyll update
+---
+Docker is used through the tech industry as platform as a service or (PaaS). It's main function is to deploy/deliver containers which is software packages. These containers can include configuration files or libraries to a server. Docker program is written in the Go programming language. Docker is avilable on Mac, PC, and Linux operating systems and can be used a GUI software or via the computer's terminal. 
+
+To install and get started with docker, you must install the program on https://www.docker.com and configure the installation on to your computer. Once it is installed, make sure the docker has access to computer folders for it to run. 
+
+Once you have everything installed, there are simple docker commands to know:
+ "$ docker ps -a" lists all of the containers that you have created
+ "$ docker start -i <container name> " is the command to start any of your created containers. For instance, to start my container of "mycontainer", the command will be "$ ocker start -i mycontainer". 
+ 
+ If you need to get a interactive terminal you would have to do a "$ docker exec -it <container name> bash". Here is a break down of that code:
+ exec: execute the conatiner
+ -it: the container will have an interative terminal to work on
+ bash: shell were the command lives
+
+ To put it all together, if I was to get a interactive terminal for "mycontainer", it will be "$ docker exec -it mycontainer bash".
+
+ These are the basic commands for docker that is essential when beginning to learn docker.
