@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Blog 2: Power of GitHub"
+date:   2021-10-02 11:34:00 -0700
+categories: jekyll update
+---
+
+Since the beginning of my semester, I have began using the online source code GitHub. I have heard of GitHub and probably used GitHub to either get code or lookup how other people have created download files for programs. GitHub is a program where coders and developers can publish software development and have version controls for their code/projects. GitHub also has features such as distributed version control and source code managemnt for developers to push and regulary update their sofware. As the name applies, it is based on Git which is a command used on terminals to track changes to any files and can be publish to a repository. 
+
+There are essential commands that are important when utilizing GitHub. We are going to use the example myfile for the command examples:
+
+git add: Adds that file to the index you want to push to the repository (Ex: $ git add myfile). 
+
+git commit -m: Where you can comment on the changes made from your file to the repository (Ex: $ git commit -m "change number 1"). 
+
+git push: updates the respository with the file changes you made. Think of it as a submit button.
+
+There are also important troubleshooting commands I was able to find useful:
+
+git status: shows the current status of your repository 
+
+git pull: receive any changes and update to your local working evironement or local branch. I like to think of it as taking an apple from a tree.
+
+This is the basic commands and history of GitHub which should help get anyone started. GitHub also has some useful steps to help get started.
