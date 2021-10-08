@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Blog 3: Dockerfiles"
+date:   2021-10-08 11:59:00 -0700
+categories: jekyll update
+---
+
+Docker has one peice of critical information that helps speed the process of automating file transfers and installations called Docker files. They esentially make installing and configurating software easier by autmoating the entire processes. This removes precious time and typing in commands when the entire process can be done for you.
+
+Since dockerfiles are part of the docker, many of the commands I have mentioned on my previous post can be applied to docker files. This is because you are basically running your docker commands on that docker file. There are some things to note that are important to creating and executing the files. Were going to look at a basic docker file and break down what it looks like with instructions that are captialized:
+
+Example : Install curl package
+FROM ubuntu:20.01
+RUN  apt update
+RUN apt install -y curl
+
+So on here the FROM instruction states where is the program being build or more technically what parent image are you building from? In this case the ubuntu server where are we building these instructions from. The RUN instruction is telling docker what to do or what to install. In this case, RUN is being used to get updates and install the curl package.
+
+After the docker file is done, there are two commands that should be used after on the terminal to build and test the docker file. First you would have to build it using the command: $ docker build -t <image name>. This will build the actual file to an image to be distributed and tested. Lastly to test the docker image we created all we have to do is to use the command : $docker run <image name>. Of course we can add the option -rm after run to use it as a test and not mess up our docker environment. That is the very simple basics of building and running a dockerfile. The docker website has great resources to go more in depth on how to use it.
