@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Blog 4: Ansible"
+date:   2021-10-15 11:59:00 -0700
+categories: jekyll update
+---
+
+In one of my previous posts, I mentioned about dockerfiles and how they can help automate the docker processes. In this post, I am going to talk about automation on a grand scale such as the software called Ansible. Ansible in a nutshell is a open-source software designed to be a automation tool that can do sophisticated IT tasks such as deploy software and configure systems in a network. This part of a process called Infrastructure As Code which contains ansible and other solutions to automations.
+
+Ansible is written in YAML which is partly based on Python coding system. Creating a file on ansible is straight foward and sometimes difficult. The difficult part is that YAML is very senstive when it comes to syntax and spaces. For instance if a you double space after command, the whole code will be wrong because of that error. Generally ansible has a playbook for multiple instructions just like a dockerfile. This playbook can help coordinating those complex tasks into a single instruction form. 
+
+Lets take a look at a simple ansible code and break it down by installing a file called abcd:
+
+---
+- hosts: localhost
+  connection: local
+  vars:
+    - local_dir: "test"
+    - dest_dir: "/var/www"
+  tasks:
+    - name: Install abcd
+      apt: name=abcd state=latest
+    - name: Start abcd 
+        service: name=abcd state=started
+
+So for this simple code we first have to identify the hosts where it is coming from and the type of connection. Then we have tasks. These tasks are esentially instructions that the program is carrying is out. For instance, where telling ansible to install the program abcd and run abcd. On the tasks, we have state which is telling to status of the command. For the install command, we are saying to install the latest version of abcd and for the start task, we say the task has started. One last thing, for vars, we are specifing the local and destination directory. They can be change to different values based on the type of workloads for the ansible program.
+
+That is a very brief introduction to Ansible and can be useful to help autmoate complext tasks!
