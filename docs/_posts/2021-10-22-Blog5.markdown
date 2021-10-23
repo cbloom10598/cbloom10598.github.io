@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Blog 5: AWS Introduction"
+date:   2021-10-22 11:59:00 -0700
+categories: jekyll update
+---
+
+Cloud computing and automating everything in the cloud is getting a huge buzz in the tech industry and nothing gets more attention than AWS or Amazon Web Services. This service provided by Amazon is a pay-as-you-go services that allows businesses to to shift there services from local to the cloud servers. Services that people use such as the Canvas LMS platform and other popular services are managed by AWS. There are so many benefits to this solution than locally but here is some of them:
+
+- Able to get access to a broad range of technologies such as machine learning and analyitics to better enahnce the business and have it for future projects.
+- Flexible scalability to only provide the amount of resources you need as a business instead of over-provisioning resources that costs more.
+- Since AWS has servers accross the world and everything is hosted online, there is no need for a physical servers or databases which leads to cost savings for a company wanting an affordable solution.
+- AWS is also a time saver as well because you can deploy servers and infrastructures faster than you would in a conventional or local setting.
+
+Amazon Web Services also provides three types of cloud computing which anyone with AWS can use. Infrastructure as a Service (Iaas) is your typical networking features to manage data as well as management control. Some examples include Rackspace and Micorosoft Azure as a platform. SaaS or Software as a Service is a product generally an end user application that is hosted on the web. This can be something like Dropbox, or gmail as these services use the internet to power applications instead of locally. Platform as a Service or (Paas) is when a person locally manages applications and data while AWS handles the runtime and networking. Google App Engine and OpenShift are examples of Platform as a Serivce.
+
+These are some of the basics of what can AWS do and to give a simple introduction to AWS. It is a powerful tool that business can manage over the cloud and make workloads easier.
