@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Blog 7: Virtual Hosts on Apache Servers "
+date:   2021-11-25 11:59:00 -0700
+categories: jekyll update
+---
+
+One of the important things about having apache servers is to get used to virtual hosts and to know what it does. Esentially, Virtual Host is able to host more than one website on a single machine (in this case were talking about the apache servers). This is important because you can have different website for each user in a company for example or one site for guests and employees. There are two main types of virtual hosts that are in apache:
+
+- Named-based is when the server relies on the hostname on the HTTP headers and tends to be easuer because since the only thing need to be confugered is the DNS server to map the hostnames. 
+- IP-based is when the server uses the IP address to connect to the correct virtual host. Every host on the apache server gets a spearate IP address
+
+Knowing these things can help you with configuration files on the server and can help with modules like AliasMatch which esentially manipulates and controls the URLs when they arrive at the serer. Here is a sample configuration file I am working on for one of my projects for a virtual host:
+
+<VirtualHost *:80>
+        # The ServerName directive sets the request scheme, hostname and port that
+        # the server uses to identify itself. This is used when creating
+        # redirection URLs. In the context of virtual hosts, the ServerName
+        # specifies what hostname must appear in the request's Host: header to
+        # match this virtual host. For the default virtual host (this file) this
+        # value is not decisive as it is used as a last resort host regardless.
+        # However, you must set it for any further virtual host explicitly.
+        #ServerName www.example.com
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/html
+
+        # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+        # error, crit, alert, emerg.
+        # It is also possible to configure the loglevel for particular
+        # modules, e.g.
+        #LogLevel info ssl:warn
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+As you can see, the virtual host is listening at Port 80 and it is telling me that the Server Admin is located at webmaster@localhost and DocuementRoot is set to which is the Root Directory for apache servers. Inside this file, is where you can add directions to how each website operates and use the name-based or IP-based structure. The configuration will process the instructions and be able to modify the webistes once the srevers are online. This is just a genrall idea on how it works, but esentially, having these virtual hosts for these webpage is responisble for the personalized webpages to the error codes you see on the website.
