@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog 7: Virtual Hosts on Apache Servers "
-date:   2021-11-25 11:59:00 -0700
+date:   2021-11-05 11:59:00 -0700
 categories: jekyll update
 ---
 
