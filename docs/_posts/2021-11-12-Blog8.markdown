@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Blog 8: .htaccess Configuration Files"
+date:   2021-11-12 11:59:00 -0700
+categories: jekyll update
+---
+
+Configuration files are extremeley important when deploying and hosting a server because it is esentially the behavior of a server. In this case for apache, the .htaccess is the configuration file and its responisble of initial settings. Each of theese behaviors from the configuration file is line of code giving instructions how to behave. Some of the possibilites that the .htaccess file can do is create passwords for users and the website as well as custom error messages and page redirects. The .htaccess makes these changes on a per-directory basis so it only affects a certain part of the website and not the entire website.
+
+There are also considerations that Apache says on when to use or don't use the .htaccess configuration. The .htaccess configurations should one be used when a person does not have access to the main configuration file (httpd) or when changes need to be me made on a directory basis as mentioned above. This is because .htaccess is desinged for people to edit changes to a particular part of a website. If a person was able to access configuration settings to the main server and was not authroized, this clould lead to uncessesary changes and or brining down a server.
+
+So how does .htaccess files work in practice? So lets take a look at an example on requireing a password for a group on a website from the apache's website. First, you would have to make sure that AllowOverride and AuthConfig is enabled because the AllowOverrride is the command for the .htaccess file to override the directory on the apache server. AuthConfig is part of overiding for the password settings. Here is the contents in the.htaccess file from this example:
+
+AuthType Basic
+AuthName "Password Required"
+AuthUserFile "/www/passwords/password.file"
+AuthGroupFile "/www/passwords/group.file"
+Require group admins
+
+To break down this example. The instructions are saying the it's a basic authentication type, they named it as Password Required, it will go into the passowrd and group file for the confugurations. Lastly, this change is affectin the group admins and nothing else.
+
+This is is just an example on how .htaccess files can be used on apached and directory based configurations. For more example on .htaccess files and examples like this, I used this website which is really helpful https://httpd.apache.org/docs/2.4/howto/htaccess.html
