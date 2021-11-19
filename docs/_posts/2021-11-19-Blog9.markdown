@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Blog 9: AWS VPC"
+date:   2021-11-19 11:59:00 -0700
+categories: jekyll update
+---
+One of the most common thing about AWS is Virutal Private Cloud or VPCs. VPCs are designed to create a isolated virtual network that a person defines to test AWS features, but having complete control of a netork environment. This is important for people wanting to test new freatures without disrupting the main server such as placing backend systems in a private subnet with no internet access which otherwise can cause issues trying to do it in a public subnet. There are many feautres to AWS and here are some that a person can use for their private network:
+
+NAT Gateway: Create instances in a private subnet that connect to external services without those services making initial connections
+
+Security Groups: Controll inbound and outbound traffic at the instance level through the EC2
+
+Private Links: nectivity between VPCs and services without exposing private data to the public web
+
+Route 53: DNS tool to attach domains to the VPC network and ties into EC2 instances.
+
+Setting up a VPC can be simple since AWS has a VPC wizard tool and you can customize how it is setup. The main piece to start setting up is to have a Elastic IP first so that the VPC can communicate to the internet. The wizard will make you associate your IP to the VPC so it is ready to go. So for creating public and private subnets, you would have to creat a unique name and chose your Elastic IP. You will also need to make sure that additional subnets do no overlap each other. I would also recommend to auto assign public addresses to help with finding the available IPs.
+
+That is pretty much a basic summary and process of VPCs on AWS. There are two documents I recommend that helped me with this blog posts, but goes more in depth on features of AWS as well as setup
+
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-public-private-vpc.html
+https://aws.amazon.com/vpc/details/?pg=ln&cp=bn 
