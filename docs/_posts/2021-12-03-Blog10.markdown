@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Blog 10: AWS and Terraform"
+date:   2021-12-03 11:59:00 -0700
+categories: jekyll update
+---
+As mentioned in my previous posts, Docker is a automative platform that allows developers to create packets to make it easier to test software on a isolated container but also can use dockerfiles to eliminate manually building servers and just using dockerfiles to easily spin up a server. Terraform is another tool for automation, but for cloud infrastructure. Instead of manually creating users, elastic IPs, and vpc's, terraform creates declaritive configuration files to autmoate the task leaving room for IT administrators to be more productive in maintaining the servers and websites! Terraform is open-source and can work with many of the top cloud providers such as AWS, Google Cloud, and Microsoft Azure. However, this post is just going to mention how AWS and Terraform is being used and some examples!
+
+So, Terraform relies on Terraform configurations that are a set of files that describe the infrustructure in Terraform. These configurations must be in its own directory for the file to work. So here is an example of a configuration for AWS with Ec2 more specifically, an AMI ID.
+
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.27"
+    }
+  }
+
+  required_version = ">= 0.14.9"
+}
+
+provider "aws" {
+  profile = "default"
+  region  = "us-west-2"
+}
+
+resource "aws_instance" "app_server" {
+  ami           = "ami-830c94e3"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleAppServerInstance"
+  }
+}
+
+Some information about about this block of configrations:
+    The "{}" are terraform blocks that include settins and required providers for Terraform.
+    Providers are plugins that create and manage the resrouces on Terraform
+    Resoruce Blocks define a component in the cloud infrastructure. For instance, "resource "aws_instance" "app_server"" is a type of resoource used for AWS in Terraform. 
+
+This is just a breif intorduction to Terraform, but useful for automating processes in a cloud platform.
+
+To take a look more at this demo and other resouces, use this website: https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/aws-get-started
