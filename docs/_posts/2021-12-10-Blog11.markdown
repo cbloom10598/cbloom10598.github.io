@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Blog 11: SSL With Apache"
+date:   2021-12-10 11:59:00 -0700
+categories: jekyll update
+---
+Having a website secured is extremely important when hosting and that is where SSL (Secure Sockets Layer) comes in play. Esentially, it is part of the transport layer protocol that makes sure the connection to the website is secure and helps safeguards sensitive data. Usually part of the ssl comes with files such as a certificate file, a key file, and a digital certification file or csr. So how does this ties in with apache? Well it is important to have websites with Apache or any host to have secure connection to webpages and having these ssl certificates help. When using apache, use OpenSSL or similar is installed on the local computer for SSL to work with apache. Here is an example how ssl works with visual hosts on Apache:
+
+<VirtualHost *:443>
+   ServerName mysite.internal
+   DocumentRoot /var/www/html/
+   SSLEngine On
+   SSLCertificateFile "/etc/apache2/ssl/mysite.csr"
+   SSLCertificateKeyFile "/etc/apache2/ssl/mysite.key"
+   SSLCertificateChainFile "/etc/apache2/ssl/mysite.crt"
+  </VirtualHost>
+
+On this example, we are telling the vhost that the SSLEngine module must be on and we list the full paths of the SSLCertificateFile, SSLCertificateChainFile and SSLCertificateKeyFile because it is important that the vhost can see the full paths of the certification files for it to apply onto the website. There are some important tips that will be usefel when setting up and configurating the ssl. It is important to know that port 443 or particular port has to be enabled and configured for the ssl to work. Make sure that the apache server is restarted so that it can be test properly. Once the website is tested on different browsers, you are good to go. It is important in these days and ages that all websites and webpage has some sort of security such as ssl to make sure that traffic through websites are protected so that no sensitive or company infomration should be hacked or compromised.
