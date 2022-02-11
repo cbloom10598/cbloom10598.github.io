@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Blog 1: Human Computer Interaction"
+date:   2022-02-11 11:59:00 -0700
+categories: jekyll update
+---
+Human computer interaction the study of computers with the focus on how humans interact with computers. This takes us back in the 1970s where computers starting to evolve from basic terminal imputs to having folders on a desktop. Human computer Interaction or HCI doesnt always apply to personal computers, it can apply to all things technology such as websites and gaming systems. HCI allows the combination of the study of human behavior and how we can take that technology and apply to making machines easier for humans to interact to.
+
+In order to begin implementing HCI into computers, we must first study how human behave and interact. This starts at the very basic level of the five senses of a human. We also look how a human resoinds to certain senes in different situations like touching cold ice or hot pan. These reactions help develop how a human behaves when sometihng exterior happens. The other study is how a person interpets ideas and objects in the world. For example, people can refer to the color green as go and red stop or arrows pointing directions. We also look at different challenges a person has that might limit senses or has a different perspective of the world around them. This will help the pcoess of implementing HCI in computers because designing graphical interfaces require catering to a broad audience.
+
+When it comes to putting it all together, you can see HCI in action like on a desktop. We have folders and windows on a computer screen. We associate folders to having files so naturally, people have came up (specificially Xerox) how to introduces files and projects on a computer to non-tech savvy people to something they have seen before. Everyone is familiar with a folder and the concept helped alot of people to get on the desktop. We also start to see familiarity in websites as well. Desgins on a website have evolved from a hyperlink text to graphics and desgins to captavate humans to interact on the website. This is also is based on HCI and the way people study with humans.
+
+HCI is the first step in creating a easy experience humans to interact with computers. The transition came in the 1970s when personal computers were about to go big and ordinary people want to know how to use the computer. This developed overtime to a usable interface we have today from gaming systems and now artificial intelegence. 
