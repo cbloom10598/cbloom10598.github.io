@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Spring 2022 Blog 3: User Modeling"
+date:   2022-03-02 11:59:00 -0700
+categories: jekyll update
+---
+Many companies today when desgining a product or software takes account to what a user can do and their abilities. This idea is called User Modeling and it is the main idea how to desing something tailored towards the person using the product. Since no one has the same features as the next person such as thinking or mobility, it is important to have options to allow people to customize the software to their abilities. There are two main areas in user modeling that are important when implementing it. It is Cognitive Limitation and Pysical Limitation.
+
+Cognitive Limitation is focusing on a person's limitation when it comes to mental abilities. Many people preceive the world and surrounding items in fron of them differently, however, it is not in a way of thinking most of the time, but how they percieve surroundings. For instance, people with ADHD are unable to focus for a long time and get easily distracted while people on the Autism Spectrum Disorder, may have a hard time expressing themselves which can lead to difficulty socializing and behavior. So a person who is creating a program, must have either a desgin or option in settings to accomidate those with cognitive limitations. This could mean ways on getting the person's attention or making the process easier for someone to understand and navigate.
+
+Physical Limitation has the same concept as Cognitivie Limitation, however its focus is the phycial abilities of a person. These limitation can include motor ability and dexterity such as how a person uses a keyboard or mouse or has a hard time using their hands. Someone who is a programmer might have to create inputes for accessible keyboards and accessories for the person to use or alter the software/GUI being used. Some people also may have difficult image processing which can lead to color blindness or being blind in general. So accomidations like screen readers to read the screen that is in front of them or a switch to alter colors for color blindess because they can only see certain colors. 
+
+Technology has evolved to accomidate limitations in many ways. Being able to have User Modeling enabled in products and software helps more people have access to many programs and softwares and can feel apart of the program. They do not have to worry about not using it because of their limitations.
