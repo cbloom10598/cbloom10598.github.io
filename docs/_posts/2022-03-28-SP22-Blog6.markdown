@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Spring 2022 Blog 6: Affective Computing Implementation"
+date:   2022-03-28 11:59:00 -0700
+categories: jekyll update
+---
+In the 1997, Rosalind Picard created the idea of Affective Computing which computers displayed or influenced human emotions. This idea of affective computing stems from neurology, medicine, and psychology. It is using a biology perspective about how the brain processes emotion and interact with other humans and machines. This idea became a major importance in the Artificial Intelligence and the Human Computer interaction fields because having machines to be able to respond to human emotion or display human emotion would change the game how computers and humans can work together. There are many approaches but the main one is the individual cognitive model.
+
+The individual cognitive model is a popular approach when computer scientists are constructing affective computing. It is also called first principles and it how it works is that the computer generates expressions based on a guide of principles and not from hardwired emotion pairs. It is used with both attempting to recognize a person’s emotional state as well as signals from the person’s body, face, or voice. This includes analyzing how eyebrows and muscles are moved to express either sad or happy expressions. The goal is to create an interaction that is human-like as possible through rules and guidelines like from Ortony.
+
+Despite the wide popularity first principles is, it has limitation on how it handles the process to identify human behavior. Limitations are from how the model was designed for simplicity as well as interpreting human behavior because it is difficult to base behavior on static models. Human behavior is dynamic and can change so having that static guideline to go by can create false assumptions on a human’s state of expressions. Luckily, this has developed over the years as technology progresses and Picard’s idea can be more of a reality in the years to come. 
+
+An article to learn more about affective computing and sources for this blog can be found here:
+
+www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affective-computing 
