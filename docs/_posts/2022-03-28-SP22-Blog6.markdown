@@ -12,4 +12,4 @@ Despite the wide popularity first principles is, it has limitation on how it han
 
 An article to learn more about affective computing and sources for this blog can be found here:
 
-https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affective-computing 
+www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affective-computing
