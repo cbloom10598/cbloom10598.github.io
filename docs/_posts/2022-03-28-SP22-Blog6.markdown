@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spring 2022 Blog 6: Affective Computing Implementation"
-date:   2022-03-27 11:59:00 -0700
+date:   2022-03-28 11:59:00 -0700
 categories: jekyll update
 ---
 In the 1997, Rosalind Picard created the idea of Affective Computing which computers displayed or influenced human emotions. This idea of affective computing stems from neurology, medicine, and psychology. It is using a biology perspective about how the brain processes emotion and interact with other humans and machines. This idea became a major importance in the Artificial Intelligence and the Human Computer interaction fields because having machines to be able to respond to human emotion or display human emotion would change the game how computers and humans can work together. There are many approaches but the main one is the individual cognitive model.
@@ -12,4 +12,4 @@ Despite the wide popularity first principles is, it has limitation on how it han
 
 An article to learn more about affective computing and sources for this blog can be found here:
 
-www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affective-computing 
+https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affective-computing 
