@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Spring 2022 Blog 7: CodeDeploy and GitHub"
+date:   2022-04-04 11:59:00 -0700
+categories: jekyll update
+---
+To change gears for a bit and transition to automation, AWS or Amazon Web Services has created a handy tool called CodeDeploy to automate software deployments and helps with developers pushing updates and content. The focus of CodeDeploy is to make sure that developers have a one stop shop to automate deployments that usually done manually would cause downtime and have redundant steps that can make the job even harder. The tool has a centralized center for all tasks related to deployment and monitoring the status of it. One of the features that is useful is the deep integration of GitHub and Jenkins to connect repositories and use to help publish websites.
+
+The steps for setting up CodeDeploy with GitHub can be tricky at first, but some of them can be only done once. The first thing is to make sure you would have to enter in your GitHub account and select the repository of your choosing for CodeDeploy to interact to. Then it will redirect you to GitHub which you need to authorize AWS. Once the proper connections are in place, you would setup the deployment group as well as the deployment application for your repository and have it running.
+
+There are some common issues and troubleshooting to know if you are doing a website or loading repositories from GitHub. First is to make sure that the instance is able to attach to the CodeDeploy since it is required to have an EC2 instance for it to run. The next thing to check is that the proper IAM policy is set so the user accessing CodeDeploy can modify settings and deploy applications from their side. One important thing to make sure of is a appspec.yml file to tell CodeDeploy how to deploy the software with AWS otherwise it would not do anything. CodeDeploy is a great tool to have and may big companies have used it to help with their deployment and when configured properly, it can be a lifesaver.
+
