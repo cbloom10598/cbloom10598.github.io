@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spring 2022 Blog 7: CodeDeploy and GitHub"
-date:   2022-04-04 11:59:00 -0700
+date:   2022-04-03 11:59:00 -0700
 categories: jekyll update
 ---
 To change gears for a bit and transition to automation, AWS or Amazon Web Services has created a handy tool called CodeDeploy to automate software deployments and helps with developers pushing updates and content. The focus of CodeDeploy is to make sure that developers have a one stop shop to automate deployments that usually done manually would cause downtime and have redundant steps that can make the job even harder. The tool has a centralized center for all tasks related to deployment and monitoring the status of it. One of the features that is useful is the deep integration of GitHub and Jenkins to connect repositories and use to help publish websites.
