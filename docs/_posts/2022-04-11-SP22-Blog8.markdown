@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Spring 2022 Blog 8: CodeDeploy and GitHub Part 2"
+date:   2022-04-11 11:59:00 -0700
+categories: jekyll update
+---
+Even though it is easy to navigate and use CodeDeploy for GitHub to deploy a website and applications, there a few tweaks and troubleshooting tools that go more in depth than the previous blog. First and foremost is to make sure that the EC2 is confugred properly with the right script to use CodeDeploy Agent. This is because when a does not put in a bash code for the EC2 about CodeDeploy, the EC2 module needs to install the agent so it can talk with CodeDeploy and properly organize the website. The other important factors are to make sure that the right files are put in the right locations for the agent to work otherwise it would keep looping until an unknown error pops up.
+
+For the EC2 component to work, it is important to enter the correct information whether using ubuntu or the AWS linux server. Then you would have to use “sudo apt install -y apache2 git awscli ruby-full wget” command to to install the aws component on the ubuntu server and the “wget” command to find the right server location where to install the CodeDeploy agent. Sometimes if needed, you can use a git clone to clone the repository directly to the server and to better help moving files to the proper location.
+
+Once the EC2 part is set up, you would need to make sure that files on the repository are moved to the right location. For instance, once everything is cloned on the server, the first thing is to do a mv command to take the “000-default.conf” file to the “sites-available” directory to display the proper configuration file. This will get CodeDeploy working and will produce no errors when deploying the GitHub application. However, it is important to install all the required packages such as the CLI and proper region for the CodeDeploy agent to work. After making sure these are properly configured. Make to restart apache 2 and use the “sudo” command as permissions might be locked when trying to do the following tasks above.
+
+
