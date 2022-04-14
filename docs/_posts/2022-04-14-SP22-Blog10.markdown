@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Spring 2022 Blog10: Changes In Technology"
+date:   2022-04-14 11:59:00 -0700
+categories: jekyl update
+---
+To end off the series of blogs posted on this page thought the 2021-2022 year, there is one very important lesson that can be applied to all types of technology and that is change. Change is a huge buzzword in technology because what happens between today and tomorrow can change with hardware and software. Technology has been a fast-paced area and ever so much now since impacts seen today of world events and change. Concepts such as Human Computer Interaction, processes and innovations have change drastically over a short period of time and this good for the future research and innovation to happen in a quicker rate.
+
+The positive effects of change can be seen in the way how we think of computers. In the early days, we think computers as helpful machines that can assist with daily tasks and make life a bit easier instead of doing tasks manually. However, within a short span of time, computers are no longer thought of a single type of device, but computers can be described in different devices. Also, change in research now is pushing computers to completely automate the tasks and no longer requires a human input. Having change in technology also allows innovations and evolutions of concepts such as how we communicate, interact, or function as humans in the world we live in today.
+
+The biggest negative effect with constant change in technology is to learn and adapt to new concept and changes with existing protocols. If a person gets behind in learning and adapting to changes, it will be harder to work in the technology space or catch up with others that already have learned the newer technologies. This can be detrimental to businesses if they do not implement newer technologies that help them stay relevant. It is important to note that change is the main key when it comes to technology and the more people are accepting and preparing on changes with technology, the faster innovations can come.
