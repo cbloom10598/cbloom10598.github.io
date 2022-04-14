@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Spring 2022 Blog9: Persuasive Systems"
+date:   2022-04-13 11:59:00 -0700
+categories: jekyll update
+---
+As technology progressed thought history especially with computers, one topic that was mentioned was how it can be used to persuade people in good or bad ways. This is a huge topic especially now when people get information online or use software that changes a person’s way of thinking. This is called Persuasive Systems and the core of the system is to change people’s behavior, emotions, and perspectives. This technology of Persuasive Systems can be spread to multiple platforms and not limited to a single piece of device or software. This can be from websites, mobile devices and social media that can have these types of systems.
+
+For Persuasive Systems to be effective, there are a few points to consider:
+
+•	They must utilize multiple platforms to communicate and know the person in multiple ways
+•	Cannot be restricted on cognitive limitations like short term memory or other limitations
+•	Be able to get data about the person such as friends and interests and use the data to motivate the person such as services related to that interest
+•	Should not be used against the person such as exploiting confidential information to the public
+•	Be able to maintain a private interaction between the person using the program and system 
+
+Many people have seen Persuasive Systems from the early days of the internet and now. The noticeable ones are personalized ads tailored to the person when they are on a website or watch something on YouTube. The websites tend to get data on what a person is watching or more specifically, their search history and present them in a friendly format. Facebook and other social websites also go deeper with Persuasive Systems by integrating their features such as groups and recommended personalized ones based on the information on the website. 
+
+More people are concerned about this technology and the impacts they can have. Some have taken steps to protect privacy and data through the years. If there is one thing for sure, this technology will evolve as technology as a whole evolves
+
+
+
